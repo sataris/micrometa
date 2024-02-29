@@ -20,10 +20,14 @@
     "config": {
         "sort-packages": true
     },
+    "repositories":[ {
+      "type": "vcs",
+      "url": "git@github.com:sataris/dom-factory.git"
+    }],
     "require": {
         "php": "^8.3",
         "ext-dom": "*",
-        "jkphl/dom-factory": "^1",
+        "jkphl/dom-factory": "dev-fix-deprecated-encoding",
         "jkphl/rdfa-lite-microdata": "^0.4.4",
         "league/uri": "^5.0|^6.5",
         "mf2/mf2": "^0.4",
